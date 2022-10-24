@@ -1,0 +1,19 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "plugin:prettier/react",
+    "plugin:prettier/@typescript-eslint"
+  ],
+  "plugins": ["@typescript-eslint", "react", "prettier", "classnames"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "classnames/prefer-classnames-function": "on"
+  },
+  "globals": {
+    "React": "writable"
+  }
+}
